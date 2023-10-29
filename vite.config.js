@@ -12,6 +12,7 @@ export default defineConfig({
   plugins: [
     vue(), 
     Sitemap({
+      hostname: "https://libyzxy0.xyz", 
       dynamicRoutes: ["/about", "/projects"]
     })
   ],
