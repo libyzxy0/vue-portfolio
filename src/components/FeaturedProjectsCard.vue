@@ -7,7 +7,7 @@
 </script>
 <template>
   <li>
-    <h3 @click="$router.push(url)">{{ title }}</h3>
+    <h3 @click="goto(url)">{{ title }}</h3>
     <p>{{ description }}</p>
     <div class="line"></div>
    </li>
@@ -24,3 +24,12 @@
     text-decoration: underline;
 }
 </style>
+<script>
+  export default {
+    methods: {
+      goto(url) {
+        window.location.href = url;
+      }
+    }
+  }
+</script>

@@ -7,7 +7,7 @@ const router = createRouter({
       name: 'home',
       component: () => import('../pages/Main.vue'),
       meta: {
-        title: 'libyzxy0'
+        title: 'Jan Liby Dela Costa - Web Developer'
       }
     },
     {
@@ -15,7 +15,7 @@ const router = createRouter({
       name: 'about',
       component: () => import('../pages/About.vue'), 
       meta: {
-        title: 'About'
+        title: 'Jan Liby Dela Costa - About'
       }
     }, 
     {
@@ -23,7 +23,7 @@ const router = createRouter({
       name: 'projects',
       component: () => import('../pages/Projects.vue'), 
       meta: {
-        title: 'Projects'
+        title: 'Jan Liby Dela Costa - Projects'
       }
     }
   ]
@@ -31,8 +31,7 @@ const router = createRouter({
 router.beforeEach((to, from, next) => {
   document.title = to.meta.title
     ? to.meta.title
-    : `Jan Liby Dela Costa - ${to.params?.id}
-    `
+    : 'Jan Liby Dela Costa - Web Developer';
   next()
 })
 
