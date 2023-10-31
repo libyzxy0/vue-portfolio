@@ -11,7 +11,7 @@
         
         <h1>About ME</h1>
         <img class="me-image" src="/me.png" alt="libyzxy0" />
-        <p class="p1">I'am Jan Liby Dela Costa, 15 years old. I embarked on my journey within the tech community at a young age. I am a Full Stack Web Developer, currently immersing myself in the study of MEVN Stack Development. My passion lies in the continuous exploration of novel concepts, which I embrace with enthusiasm every day.</p>
+        <p class="p1">I am Jan Liby Dela Costa a 15-year-old tech enthusiast, loves diving into the world of Full Stack Web Development, especially the MEVN Stack, with an infectious enthusiasm for discovering new ideas every day.</p>
         
         <div class="action-buttons">
           <button>Download CV</button>

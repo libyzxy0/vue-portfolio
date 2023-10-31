@@ -8,7 +8,7 @@
   <section class="hero">
       <div class="container">
         <h1>{{ typewriter }}</h1>
-        <p>My name is Jan Liby Dela Costa, and I am 15 years old. I embarked on my journey within the tech community at a young age. I am a Full Stack Web Developer, currently immersing myself in the study of MEVN Stack Development. My passion lies in the continuous exploration of novel concepts, which I embrace with enthusiasm every day.</p>
+        <p> My name is Jan Liby Dela Costa and i'am a 15-year-old tech enthusiast, loves diving into the world of Full Stack Web Development, especially the MEVN Stack, with an infectious enthusiasm for discovering new ideas every day.</p>
         <p class="p1">See my featured projects below.</p>
         <p class="p1">Social Links:</p>
         <div class="social-links">
