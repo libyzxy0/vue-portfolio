@@ -19,6 +19,33 @@
           <p>A PWA web application where you can send message anonymously, the idea came from ngl.link.</p>
         </div>
       </div>
+      <div class="card">
+        <div class="img"><img src="" alt="MetryBot"></div>
+        <div class="info">
+          <div class="badges">
+            <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" />
+            <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" />
+          </div>
+          <h2 @click="goto('https://github.com/libyzxy0/MetryBot')">MetryBot</h2>
+          <p>A messenger chatbot built with TypeScript.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="img"><img src="https://shoti-api.vercel.app/favicon.png" alt="Shoti API"></div>
+        <div class="info">
+          <div class="badges">
+           <img src="https://img.shields.io/badge/Nuxt-002E3B?style=for-the-badge&logo=nuxtdotjs&logoColor=#00DC82">
+            <img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+            <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+            <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" />
+            <img src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB" />
+            <img src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white" />
+            <img src="https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white" />
+          </div>
+          <h2 @click="goto('https://shoti-api.vercel.app')">Shoti API</h2>
+          <p>A powerful api that sends random tiktok beautiful girl videos.</p>
+        </div>
+      </div>
     </div>
   </section>          
   <Footer />
